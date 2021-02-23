@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/***** header *****/
+
+.wrapper .gnb_box {
+  position: fixed;  top:0; right:-300px; z-index: 2000;
+  width: 80%; max-width: 280px;  height:100vh; padding:0 27px ;
+  background-color: #0a0a0a;   text-align: left;
+  flex-direction: column; align-items: flex-start;
+  display:none;
+}
+.wrapper .gnb_box ul {  flex-direction: column;  color:white;  line-height: 2;  position: relative;}
+.wrapper .gnb_box i {
+  display: block;  font-size: 24px; color:#9EBB3A;
+  position:absolute;  top:40px; right:10px;  z-index: 1000;
+}
+.wrapper .gnb_box i:hover {  cursor: pointer; }
+
+.wrapper .gnb_box .gnb_menu {
+  position: relative;  top:12%;
+  margin:0; width:100%;   padding-bottom:10px;  border-bottom: 1px solid #9EBB3A;
+}
+.wrapper .gnb_box .gnb_utill {  top:13%;  color:white; font-size: 16px;}
+.wrapper .gnb_box .gnb_utill li:first-child::after {  content:none; }
+.wrapper .gnb_search li:first-child:active i {
+  font-size:16px; color:#9EBB3A;  transform:translateY(5px) translateX(-20px) ;
+}
+
+.wrapper .gnb_search .menu_tap { display:inline-block;  }
+.wrapper .gnb_search .menu_tap i::after { 
+  content: ""; width:36px; height:36px; background-color: #9EBB3A; border-radius: 50%;
+  position:absolute; top:5px; right:10px; z-index: -1;
+}
+
+.wrapper .bg_box {
+  width:100%;  height:100%; display:none;
+  position: fixed;  top:0; left:0;   z-index: 50;
+  background-color: rgba(10,10,10,0.2);
+}
+
+
+/***** main *****/
+.wrapper .main_point h2 {  padding-top:45px;  font-size: 38px;}
+.wrapper .main_point h2::after {  width:100%; }
+
+.wrapper .main_point .keywords li { width:30%; max-width: 288px;}
+.wrapper .main_point .keywords figure figcaption {  font-size: 20px; }
+
+.wrapper .main_banner h2 {  font-size: 26px; }
+.wrapper .main_banner h2 span {   display: block; }
+.wrapper .main_banner h2:after  { bottom:50px; left:540px;  }
+.wrapper .main_banner h2:before { bottom:50px; right:600px; }
+
+.wrapper .main_contents h2 {  font-size: 32px;  margin-top: 60px; }
+.wrapper .main_contents h2::after {  width:440px; }
+.wrapper .main_contents .contents_menu {  font-size: 18px; }
+.wrapper .main_contents .contents_list {  justify-content: space-around; }
+.wrapper .main_contents .contents_list li {  width:33.3333%; max-width:250px; padding:0 0 65px; }
+
+
+
+
+
+
+
