@@ -95,7 +95,7 @@ main .wrap {
 .wrapper .main_banner {
   height:369px;  width:100%;  color:whitesmoke; 
   display:flex; align-items: center; justify-content: center;
-  background: url(images/about-bg1.jpg) no-repeat center center/cover; 
+  background: url(images/about-bg1.jpg) no-repeat fixed center center/cover; 
 }
 .wrapper .main_banner h2 { position:relative; font-size: 32px; padding:0 30px; font-weight: 100;}
 .wrapper .main_banner h2 br { display:none;}
@@ -198,7 +198,7 @@ main .wrap {
 /*********  footer ********/
 .wrapper footer { background-color: #0A0A0A; color:#707070; font-size: 14px; }
 .wrapper footer .wrap { padding:30px; flex-direction: column;}
-.wrapper footer address { width:100%;}
+.wrapper footer address { width:157px; text-align:left;}
 .wrapper footer address i { padding-right: 2%;}
 .wrapper footer p { margin-bottom: 0; text-transform: capitalize;}
 
