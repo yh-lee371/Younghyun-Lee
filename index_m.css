@@ -80,5 +80,6 @@ main { padding-top:60px;}
 /***** footer *****/
 .wrapper footer {   font-size: 12px;}
 .wrapper footer .wrap {  padding:20px 0; max-width: 82.6086%; }
+.wrapper footer address {width:136px;}
 .wrapper footer p span { display: inline-block;}
 
