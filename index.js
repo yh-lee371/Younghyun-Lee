@@ -25,10 +25,9 @@ $( document ).ready( function() {
 
 
   //메뉴 사이드바 
-  $('.menu_tap').click(function(){
+    $('.menu_tap').click(function(){
     $('.bg_box').fadeIn();
-    $('.gnb_box').fadeIn().css({'right':'0', 'transition':'0.6s'});
-    $('.gnb_search').fadeOut();
+    $('.gnb_box').fadeIn().css({'right':'0', 'transition':'0.6s','display':'flex'});
     $('#move_up_btn').css('display','none');
   });
 
@@ -36,7 +35,6 @@ $( document ).ready( function() {
   $('.fa-times-circle').click(function(){
     $('.bg_box').fadeOut();
     $('.gnb_box').fadeOut().css('right','-300px');
-    $('.gnb_search').fadeIn();
   });
 
   //검색창 크기 조정

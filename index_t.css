@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /***** header *****/
-
+header .wrap { justify-content: space-between;}
 .wrapper .gnb_box {
   position: fixed;  top:0; right:-300px; z-index: 2000;
   width: 80%; max-width: 280px;  height:100vh; padding:0 27px ;
@@ -26,6 +26,7 @@
   font-size:16px; color:#9EBB3A;  transform:translateY(5px) translateX(-20px) ;
 }
 
+.wrapper .gnb_search {margin: 0;}
 .wrapper .gnb_search .menu_tap { display:inline-block;  }
 .wrapper .gnb_search .menu_tap i::after { 
   content: ""; width:36px; height:36px; background-color: #9EBB3A; border-radius: 50%;
