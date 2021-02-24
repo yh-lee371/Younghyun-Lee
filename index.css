@@ -172,10 +172,10 @@ main .wrap {
 .wrapper .main_contents .contents_list li:nth-child(26) img {width:80%; top:55%; }
 .wrapper .main_contents .contents_list li:nth-child(27) img {width:180%; top:70%; }
 .wrapper .main_contents .contents_list li:nth-child(28) img {width:180%;  }
-.wrapper .main_contents .contents_list li:nth-child(29) img {width:615px;  }
-.wrapper .main_contents .contents_list li:nth-child(30) img {width:615px;  }
-.wrapper .main_contents .contents_list li:nth-child(31) img {width:445px;  }
-.wrapper .main_contents .contents_list li:nth-child(32) img {width:550px;  }
+.wrapper .main_contents .contents_list li:nth-child(29) img {width:180%;  }
+.wrapper .main_contents .contents_list li:nth-child(30) img {width:250%;  }
+.wrapper .main_contents .contents_list li:nth-child(31) img {width:190%;  }
+.wrapper .main_contents .contents_list li:nth-child(32) img {width:230%;  }
 
 
 .wrapper .main_contents .more_btn {
