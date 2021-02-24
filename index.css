@@ -65,14 +65,14 @@ header .wrap {justify-content: unset; padding:0 10px;}
 
 
 /**************  main **************/
-main { padding-top:50px;}
+main { padding-top:100px;}
 main .wrap { 
   flex-direction: column; position: relative; padding:0 30px; justify-content: stretch; 
 }
 
 /* main_point */
 .wrapper .main_point { height:1010px; }
-.wrapper .main_point .wrap > img { width:298px; padding-top: 100px; }
+.wrapper .main_point .wrap > img { width:298px; padding-top: 85px; }
 .wrapper .main_point h2  { padding-top:45px; font-size: 48px;  }
 .wrapper .main_point h2::after {
   content: ""; border-bottom: 5px solid #9EBB3A; width:570px;  margin:3px auto 0;  display:block;
