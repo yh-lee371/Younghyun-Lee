@@ -32,13 +32,13 @@ header .wrap { padding:0 10px;}
   font-size: 38px; width:115px; 
 }
 .wrapper .bg_box {display: none;}
-.wrapper .gnb_box {display: flex; align-items: center; padding:0 10px;} 
+.wrapper .gnb_box {display: flex; align-items: center; padding:0 10px; } 
 .wrapper .gnb_box i {display: none;}
 .wrapper .gnb_box a:hover { color:#9EBB3A; }
 .wrapper .gnb_box .gnb_menu { font-size:22px; font-weight: bold;}
 .wrapper .gnb_box .gnb_menu a {  padding-right:30px; }
 
-.wrapper .gnb_box .gnb_utill { margin-right: 42px; font-size: 13px; color:#707070;}
+.wrapper .gnb_box .gnb_utill { margin-right: 42px; font-size: 13px; color:#707070;  transition: 0.6;}
 .wrapper .gnb_box .gnb_utill li:first-child::after  { 
   content: "ㅣ"; color:#707070; float:right; margin: 0 5px; height:10px; 
 }
@@ -52,8 +52,6 @@ header .wrap { padding:0 10px;}
   font-size:16px; color:#9EBB3A; transform:translateY(5px) translateX(-20px) ;
 }
 .wrapper .gnb_search .search_tap:hover input {  width:340px; background-color: #f2f2f2;}
-
-
 .wrapper .gnb_search .search_tap form { position: relative; }
 .wrapper .gnb_search .search_tap input {
   width:36px; height:36px; padding:11px; outline: none; 
@@ -177,7 +175,7 @@ main .wrap {
 .wrapper .main_contents .contents_list li:nth-child(28) img {width:180%;  }
 .wrapper .main_contents .contents_list li:nth-child(29) img {width:280%;  }
 .wrapper .main_contents .contents_list li:nth-child(30) img {width:250%;  }
-.wrapper .main_contents .contents_list li:nth-child(31) img {width:180%;  }
+.wrapper .main_contents .contents_list li:nth-child(31) img {width:190%;  }
 .wrapper .main_contents .contents_list li:nth-child(32) img {width:230%;  }
 
 

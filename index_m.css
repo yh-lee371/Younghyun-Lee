@@ -5,7 +5,7 @@
 
 /***** header *****/
 header { height:60px; }
-.wrapper h1 { width:60px; }
+.wrapper h1 { width:70px; }
 
 .wrapper .gnb_box i {  top:20px; }
 .wrapper .gnb_box .gnb_menu {  font-size: 18px;  top:8%; }
@@ -80,6 +80,5 @@ main { padding-top:60px;}
 /***** footer *****/
 .wrapper footer {   font-size: 12px;}
 .wrapper footer .wrap {  padding:20px 0; max-width: 82.6086%; }
-.wrapper footer address {width:136px;}
 .wrapper footer p span { display: inline-block;}
 
