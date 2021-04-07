@@ -14,7 +14,7 @@ body {
 h1,
 h2 {
   margin: 0;
-  font-weight: 300;
+  font-weight: 400;
 }
 h2 strong {
   font-weight: 700;
@@ -200,7 +200,6 @@ main .wrap {
 .main_point .keywords figure figcaption {
   padding-top: 23px;
   font-size: 23px;
-  font-weight: 100;
 }
 .main_point .keywords figure .figure_img {
   width: 100%;
@@ -264,7 +263,6 @@ main .wrap {
 .main_contents h2 {
   margin-top: 135px;
   text-align: left;
-  font-weight: 300;
   font-size: 58px;
 }
 .main_contents h2 strong {
