@@ -13,14 +13,6 @@ $( document ).ready( function() {
     return false;
   } );
 
-  /*
-  $(window).width(function(){
-    if($(this).width() > 1267){
-      $('.gnb_box').fadeIn();
-    }
-  });
-  */
-
   // 이모티콘 리스트
   $('.items').slice(0, 16).show(); 
   $('.more_btn').click(function(e){
@@ -31,35 +23,46 @@ $( document ).ready( function() {
       }
   });
 
+  // 메뉴 활성화
+  $('.menu_tap').click(function(){
+    $('nav').addClass('on');
+  });
+  $('.menu_btn').click(function(){
+    $('nav').removeClass('on');
+  });
+
+
 
   //메뉴 사이드바 
     $('.menu_tap').click(function(){
     $('.bg_box').fadeIn();
-    $('.gnb_box').fadeIn().css({'right':'0', 'transition':'0.6s'});
+    $('.gnb_box').fadeIn().css({'right':'0', 'transition':'0.6s','display':'flex'});
     $('#move_up_btn').css('display','none');
   });
 
-  
   $('.fa-times-circle').click(function(){
     $('.bg_box').fadeOut();
-    $('.gnb_box').hide().css({'right':'-100%','display':'flex'});
-    // $('.gnb_box').css('right','-350px');
+    $('.gnb_box').fadeOut().css('right','-300px');
   
   });
 
   //검색창 크기 조정
-  // $('.search_tap').on({
-  //   'mouseenter':function(){
-  //     $('.gnb_utill').hide();
-  //   },
-  //   'mouseleave':function(){
-  //     $('.gnb_utill').show();
-  //   }
-  //   });
+  $('.search_tap').on({
+    'mouseenter':function(){
+      $('.gnb_utill').fadeIn;
+    },
+    'mouseleave':function(){
+      $('.gnb_utill').fadeOut;
+    }
+    });
 
   // 키워드 스와이프
   $('.prev').click(function(){
     $('.key_items');
   });
   
+  // a [href="#"] 속성 제거 
+  $('a[href="#"]').on('click',function(e){
+    e.preventDefault();
+  });
 } );

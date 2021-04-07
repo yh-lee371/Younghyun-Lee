@@ -12,13 +12,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;700&display=swap" rel="stylesheet">
   <!-- 아이콘 -->
   <script src="https://kit.fontawesome.com/a39269ae2e.js" crossorigin="anonymous"></script>
-  <!-- js -->
-  <script src="common/jquery-3.5.1.min.js"></script>
-  <script src="index.js"></script>
   <!-- style -->
+  <link rel="stylesheet" href="common/slick.css">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" media="(max-width:1266px)" href="index_t.css">
   <link rel="stylesheet" media="(max-width:981px)" href="index_m.css">
+  <!-- js -->
+  <script src="common/jquery-3.5.1.min.js"></script>
+  <script src="common/slick.js"></script>
+  <script src="index.js"></script>
 
 </head>
 
@@ -29,7 +31,7 @@
       <div class="wrap">
         <h1><a href="index.html">로고</a></h1>
         <div class="bg_box"></div>
-        <div class="gnb_box">
+        <nav class="navbar">
           <ul class="gnb_menu">
             <li><a href="#">회사소개</a></li>
             <li><a href="#">캐릭터</a></li>
@@ -41,8 +43,8 @@
             <li><a href="#">채용정보</a></li>
             <li><a href="#">오시는길</a></li>
           </ul>
-          <i class="far fa-times-circle"></i>
-        </div>
+          <i class="far fa-times-circle menu_btn"></i>
+        </nav>
         <ul class="gnb_search">
           <li class="search_tap">
             <form>
@@ -66,7 +68,6 @@
         <div class="wrap">
           <img src="images/logo.png" alt="logo">
           <h2>디지털 환경의 <strong>감성 문화 구현</strong></h2>
-
           <ul class="keywords">
             <li class='slider prev'>
               <i class="fas fa-angle-left"></i>
